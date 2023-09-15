@@ -17,3 +17,43 @@
 	--color-square-clearec: #ffd830;
 	--color-bg-footer: #000000;
 }
+
+/* utility */
+.debug{
+    border: solid 1px black;
+}
+
+.d-flex{
+    display: flex;
+    flex-direction: row;
+}
+
+.justify-end{
+    justify-content: flex-end;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.align-center{
+    align-items: center;
+    align-content: center;
+}
+
+.align-start{
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+li{
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}

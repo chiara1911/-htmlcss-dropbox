@@ -22,10 +22,18 @@
 .debug{
     border: solid 1px black;
 }
-
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 5px;
+}
 .d-flex{
     display: flex;
     flex-direction: row;
+}
+.d-flex-column{
+    display: flex;
+    flex-direction: column;
 }
 
 .justify-end{
@@ -52,8 +60,40 @@
 
 li{
     list-style: none;
+    margin: 2px;
 }
 
 a {
     text-decoration: none;
+    padding: 5px;
+}
+ul{
+    margin:0 10px;
+}
+
+/* footer */
+
+/* nav{
+    padding-top: 20px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 30px;
+    a
+   } */
+.btn-blue{
+    background-color: var(--color-btn-blue);
+    color: white;
+}
+
+h1{
+    text-align: center;
+}
+.hero{
+    background-color: var(--color-bg-hero);
+}
+.first-main{
+    width: 50vw;
+    height: 200px;
 }

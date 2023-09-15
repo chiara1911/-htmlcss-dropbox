@@ -17,8 +17,13 @@
 	--color-square-clearec: #ffd830;
 	--color-bg-footer: #000000;
 }
+header{
+    width: 100vw;
+    height: 200px;
+}
 
 /* utility */
+
 .debug{
     border: solid 1px black;
 }
@@ -89,11 +94,17 @@ ul{
 
 h1{
     text-align: center;
+    font-size: 3vw;
 }
 .hero{
     background-color: var(--color-bg-hero);
+    width: 100vw;
+    height: 50vw;
 }
 .first-main{
     width: 50vw;
     height: 200px;
+}
+.box1{
+
 }

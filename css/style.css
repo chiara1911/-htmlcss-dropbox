@@ -20,6 +20,7 @@
 header{
     width: 100vw;
     height: 400px;
+    background-color: var(--color-bg-hero);
 }
 main{
     width: 100vw;
@@ -86,15 +87,15 @@ ul{
 
 /* footer */
 
-/* nav{
+nav{
     padding-top: 20px;
     position: fixed;
     top: 0;
     right: 0;
     width: 100%;
-    height: 30px;
-    a
-   } */
+    height: 50px;
+    background-color: white;
+   }
 .btn-blue{
     background-color: var(--color-btn-blue);
     color: white;
@@ -105,10 +106,7 @@ h1{
     font-size: 50px;
 }
 .hero{
-    background-color: var(--color-bg-hero);
-    width: 100vw;
-    height: 50vw;
-    display: block;
+    margin-top: 50px;
 }
 .first-main{
     width: 50vw;

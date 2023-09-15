@@ -19,18 +19,26 @@
 }
 header{
     width: 100vw;
-    height: 200px;
+    height: 400px;
 }
-
+main{
+    width: 100vw;
+    height: 100vh;
+}
+/* img{
+    width: 100%;
+    object-fit: cover;
+} */
 /* utility */
 
 .debug{
     border: solid 1px black;
 }
 .container{
-    max-width: 1200px;
+    width: 1200px;
     margin: 0 auto;
     padding: 5px;
+    overflow: hidden;
 }
 .d-flex{
     display: flex;
@@ -94,17 +102,26 @@ ul{
 
 h1{
     text-align: center;
-    font-size: 3vw;
+    font-size: 50px;
 }
 .hero{
     background-color: var(--color-bg-hero);
     width: 100vw;
     height: 50vw;
+    display: block;
 }
 .first-main{
     width: 50vw;
     height: 200px;
 }
-.box1{
 
+.section-text{
+    display: block;
+    width: 40%;
+
+}
+
+#jumbo{
+    width: 60%;
+    
 }

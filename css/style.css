@@ -4,3 +4,16 @@
     box-sizing: border-box;
 }
 
+:root {
+	--color-btn-blue: #0a66fc;
+	--color-bg-hero: #b4d0e7;
+	--color-square-designit: #a2d39b;
+	--color-square-asu: #61082b;
+	--color-square-florida: #0093ce;
+	--color-square-topps: #ff1c1c;
+	--color-square-vbr: #d5001f;
+	--color-square-hcorp: #b4d0e7;
+	--color-square-lonely: #0d2481;
+	--color-square-clearec: #ffd830;
+	--color-bg-footer: #000000;
+}

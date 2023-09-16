@@ -19,20 +19,37 @@
 }
 header{
     width: 100vw;
-    height: 400px;
+    height:100%;
     background-color: var(--color-bg-hero);
+}
+body{
+    font-family: 'Fredoka', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Noto Sans Linear B', sans-serif;
+font-size: 30px;
 }
 main{
     width: 100%;
     height: 100%;
 }
-/* img{
-    object-fit: cover;
-} */
-/* utility */
 
+.btn-blue{
+    background-color: var(--color-btn-blue);
+    color: white;
+    padding: 5px;
+
+}
+
+.begin{
+    margin-top: 50px;
+    font-size: 2em;
+}
+/* utility */
+.wrapper{
+  flex-wrap: wrap;
+}
 .debug{
-    border: solid 5px black;
+    border: solid 1px black;
 }
 .container{
     max-width: 70%;
@@ -43,7 +60,7 @@ main{
 .d-flex{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+  
 }
 .d-flex-column{
     display: flex;
@@ -74,73 +91,112 @@ main{
 
 li{
     list-style: none;
-    margin: 2px;
+   padding: 10px
 }
-
-a {
-    text-decoration: none;
-    padding: 5px;
-   
-}
-ul{
-    margin:0 10px;
-}
-
-/* footer */
-
+/* header */
 nav{
+    width: 100%;
+    height: 120px;
+    background-color: white;
+    overflow: hidden;
     padding-top: 20px;
     position: fixed;
     top: 0;
     right: 0;
-    width: 100%;
-    height: 50px;
-    background-color: white;
-    overflow: hidden;
+    font-size: 1.1em;
+    z-index: 1000;
    }
-.btn-blue{
-    background-color: var(--color-btn-blue);
-    color: white;
-    margin: 80px 0;
+
+section{
+    margin-top: 100px;
+}
+#logo{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+a .hero-text{
+    padding: 5px;
+    font-size: 2em;
+    margin-top: 100px;
+
+}
+a{
+    text-decoration: none;
+    margin: 30px;
+    
+}
+img.hero{
+    width: 100%;
+height: 400px;
+    object-fit: cover;
 }
 
+/* main */
+
+.card{
+    padding: 10px;
+}
+.d-flex-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.first-box{
+    margin: 100px;
+}
+/* footer */
+
+
+
+
 h1{
-    /* text-align: center; */
-    font-size: 5em;
+   
+    font-size: 7em;
+    font-weight: bolder;
     margin: 100px;
 }
 .hero{
     width: 100%;
+    position: relative;
 }
 
 
 .hero-text{
-   background-color: gold;
+   margin-top: 100px;
    width: calc(100% / 3);
    height: 100%;
    float: left;
 }
 .hero-img{
-    background-color: red;
+   
     width: calc((100% / 3) * 2);
-    height: 100%;
+    min-height: 500px;
     float: left;
-    /* position: absolute; */
+    display: block;
+    position: relative;
+    top: 120px;
+    
  }
 .box{
     display: inline-block;
-    width: calc(100vw - 50px);
-    height: 100px;
+    width: calc(100vw / 3 );
+    height: 100vh;
+    margin: 50px;
+    padding: 10px;
     }
 
+ #jumbo{
+        width: 100%;
+     }
 
-
-
-
-#jumbo{
-    display: block;
-    position: absolute;
-    object-fit: cover;
+.box-card-1{
+    
+    /* padding-top: 50px; */
+    height: 100vh;
 }
+
+
+
 
 

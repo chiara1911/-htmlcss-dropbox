@@ -23,27 +23,27 @@ header{
     background-color: var(--color-bg-hero);
 }
 main{
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
 }
 /* img{
-    width: 100%;
     object-fit: cover;
 } */
 /* utility */
 
 .debug{
-    border: solid 1px black;
+    border: solid 5px black;
 }
 .container{
-    width: 1200px;
+    max-width: 70%;
     margin: 0 auto;
-    padding: 5px;
-    overflow: hidden;
+    padding: 10px;
+
 }
 .d-flex{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 .d-flex-column{
     display: flex;
@@ -80,6 +80,7 @@ li{
 a {
     text-decoration: none;
     padding: 5px;
+   
 }
 ul{
     margin:0 10px;
@@ -95,31 +96,51 @@ nav{
     width: 100%;
     height: 50px;
     background-color: white;
+    overflow: hidden;
    }
 .btn-blue{
     background-color: var(--color-btn-blue);
     color: white;
+    margin: 80px 0;
 }
 
 h1{
-    text-align: center;
-    font-size: 50px;
+    /* text-align: center; */
+    font-size: 5em;
+    margin: 100px;
 }
 .hero{
-    margin-top: 50px;
-}
-.first-main{
-    width: 50vw;
-    height: 200px;
+    width: 100%;
 }
 
-.section-text{
-    display: block;
-    width: 40%;
 
+.hero-text{
+   background-color: gold;
+   width: calc(100% / 3);
+   height: 100%;
+   float: left;
 }
+.hero-img{
+    background-color: red;
+    width: calc((100% / 3) * 2);
+    height: 100%;
+    float: left;
+    /* position: absolute; */
+ }
+.box{
+    display: inline-block;
+    width: calc(100vw - 50px);
+    height: 100px;
+    }
+
+
+
+
 
 #jumbo{
-    width: 60%;
-    
+    display: block;
+    position: absolute;
+    object-fit: cover;
 }
+
+

@@ -145,6 +145,18 @@ height: 400px;
 .first-box{
     margin: 100px;
 }
+#partner{
+    margin-top: 50px;
+}
+.partner-text{
+    margin: 20px;
+}
+#btn-partner{
+    border: solid black 1px;
+    margin-top: 20px;
+    padding: 5px;
+}
+
 /* footer */
 
 

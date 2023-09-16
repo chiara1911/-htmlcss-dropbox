@@ -16,6 +16,7 @@
 	--color-square-lonely: #0d2481;
 	--color-square-clearec: #ffd830;
 	--color-bg-footer: #000000;
+    --color-border-hover: #D1E6CB;
 }
 header{
     width: 100vw;
@@ -217,3 +218,94 @@ h1{
 .img-b-card{
     width:100%;
 }
+.design-it{
+    width: 100%;
+    background-color: yellow;
+    position: relative;
+    margin-top: 400px;
+}
+ .square1{
+    width: 33vw;
+    display: flex;
+    flex-wrap: wrap;
+    height: 33vh;
+ }
+
+.box1{
+    background-color: var(--color-square-designit);
+    width: 50%;
+    float: left;
+    display: block;
+    text-align: center;
+}
+.box2{
+    background-color: var(--color-square-asu);
+    width: 50%;
+    float: right;
+    display: block;
+    text-align: center;
+}
+.box3{
+    background-color: var(--color-square-florida);
+    width: 50%;
+    float: top;
+    display: block;
+    text-align: center;
+}
+.box4{
+    background-color: var(--color-square-topps);
+    width: 50%;
+    display: block;
+    text-align: center;
+    float: bottom;
+ 
+    
+}
+.box-square{
+ 
+   
+}
+.box-img{
+    width: 500px;
+    height: 500px;
+    object-fit: contain;
+   padding:50px;
+}
+
+
+#p-box-img{
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    
+}
+footer{
+    width: 100vw;
+    height: 400px;
+    background-color: pink;
+}
+#p-box{
+    width: 100%;
+    text-align: center;
+}
+.square2{
+    padding: 50px;
+}
+
+#box5{
+    background-color: var(--color-square-vbr);
+}
+#box6{
+    background-color: var(--color-square-hcorp);
+}
+#box7{
+    background-color: var(--color-square-lonely);
+}
+#box8{
+    background-color: var(--color-square-clearec);
+}
+
+#box1:hover{
+    border: solid 20px var(--color-border-hover);
+}
+

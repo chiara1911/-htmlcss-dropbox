@@ -89,10 +89,18 @@ main{
     align-items: flex-start;
     align-content: flex-start;
 }
+.head-box{
+    border-bottom: solid 1px black;
+    padding: 20px;
+}
 
 li{
     list-style: none;
    padding: 10px
+}
+
+.margin-20{
+    margin-bottom: 20px;
 }
 /* header */
 nav{
@@ -194,9 +202,9 @@ h1{
 .box{
     display: inline-block;
     width: calc(100vw / 3 );
-    height: 100vh;
+    /* height: 100vh; */
     margin: 50px;
-    padding: 10px;
+    /* padding: 10px; */
     }
 
  #jumbo{
@@ -261,9 +269,8 @@ h1{
  
     
 }
-.box-square{
- 
-   
+hr{
+    width: 20%;
 }
 .box-img{
     width: 500px;

@@ -172,11 +172,9 @@ a {
    
 }
 
-#hero-box{
- 
+#hero-box{ 
  position: relative;
- top: 70px;
-
+ top: 120px;
 }
 
 img .hero {
@@ -267,7 +265,7 @@ img .hero {
 .box {
     display: inline-block;
     width: calc(100vw / 3);
-    margin: 50px;
+    margin: 20px;
 }
 
 #jumbo {

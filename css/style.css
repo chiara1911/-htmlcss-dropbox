@@ -219,7 +219,9 @@ img .hero {
     padding: 10px;
 }
 
-
+#piani{
+    margin-bottom: 30px;
+}
 
 .check {
     color: var(--color-btn-blue);
@@ -364,7 +366,9 @@ hr {
     padding: 10px;
 }
 
-
+.box-img{
+    text-align: center;
+}
 
 summary {
     border-bottom: solid 3px var(--color-bg-footer);

@@ -21,9 +21,12 @@
 }
 
 header {
-    width: 100vw;
-    height: 100%;
-    background-color: var(--color-bg-hero);
+    width: 100%;
+       background-color: var(--color-bg-hero);
+       position: fixed;
+       top:0;
+       left: 0;
+       z-index: 1000;
 }
 
 body {
@@ -33,6 +36,7 @@ body {
 }
 h1{
     font-size: 3.5rem;
+ 
 }
 
 main {
@@ -74,8 +78,10 @@ main {
 
 .container {
     max-width: 70%;
-    margin: 100px auto;
-    padding: 30px;
+    margin:0 auto;
+    padding: 10px;
+    margin-top: 30px;
+
 }
 
 
@@ -122,9 +128,10 @@ main {
 
 li {
     list-style: none;
-
 }
-
+.icon{
+    padding: 5px;
+}
 .margin-20 {
     margin: 5px;
 }
@@ -135,37 +142,27 @@ li {
 
 .blue-section {
     background-color: var(--color-bg-hero);
-
 }
 
 /* header */
-.head-box {
-    border-bottom: solid 1px black; 
-    text-align: center;
-}
+
 
 nav {
     width: 100%;
     background-color: white;
-    overflow: hidden;
-    position: fixed;
-    top: 0;
-    right: 0;
-    z-index: 1000;
-}
+  }
+
 
 section {
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 #logo {
-
     object-fit: contain;
-
 }
 
 #arrow-down {
-    font-size: 8em;
+    font-size: 6em;
     color: var(--color-bg-footer);
 
 }
@@ -181,16 +178,26 @@ a {
     margin: 15px;
 }
 
-img.hero {
+#hero-box{
+ 
+ position: relative;
+ top: 70px;
+
+}
+
+img .hero {
     width: 100%;
-    height: 40px;
+    height: 20px;
     object-fit: cover;
 }
 
+
+
 .hero {
     width: 100%;
-    position: relative;
-    top: 20px;
+    padding-top: 20px;
+    background-color: var(--color-bg-hero);
+   
 }
 
 
@@ -219,16 +226,14 @@ img.hero {
     padding: 10px;
 }
 
-/* .first-box {
-    margin: 100px;
-} */
+
 
 .check {
     color: var(--color-btn-blue);
 }
 
 #partner {
-    margin-top: 50px;
+    margin-top: 10px;
 }
 
 #partner-img {
@@ -261,6 +266,10 @@ img.hero {
     text-align: center;
 }
 
+.head-box {
+    border-bottom: solid 1px black;
+    text-align: center;
+}
 .box {
     display: inline-block;
     width: calc(100vw / 3);
@@ -293,6 +302,9 @@ img.hero {
     display: flex;
     flex-wrap: wrap;
     height: 33vh;
+}
+.square1 img{
+    width: 80%;
 }
 
 .box1 {
@@ -388,7 +400,7 @@ summary {
 
 
 footer {
-    width: 100vw;
+    width: 100%;
     height: 100%;
     background-color: var(--color-bg-footer);
     color: white;

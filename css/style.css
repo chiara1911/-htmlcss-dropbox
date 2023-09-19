@@ -301,7 +301,9 @@ img .hero {
     height: calc(100vw / 3); 
 }
 
-
+h4{
+    margin-bottom: 20px;
+}
 
 .box1 {
     background-color: var(--color-square-designit);
@@ -382,11 +384,11 @@ summary {
 footer {
     width: 100%;
     height: 100%;
-    background-color: var(--color-bg-designit);
+    background-color: var(--color-bg-footer);
 }
 
 .last-section {
-    margin: 100px;
+    /* margin: 100px; */
     color: white;
 }
 
@@ -396,4 +398,13 @@ footer {
 
 .faq li{
     margin-bottom: 20px;
+}
+
+#hr-footer{
+    margin:30px;
+    color: var(--color-bg-designit);
+}
+#language{
+    color: var(--color-bg-designit);
+
 }

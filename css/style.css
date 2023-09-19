@@ -252,7 +252,9 @@ img .hero {
     width: 50%;
 
 }
-
+.box div{
+    margin-top: 20px;
+}
 #p-box {
     width: 100%;
     text-align: center;

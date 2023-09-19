@@ -293,9 +293,10 @@ img .hero {
 } 
 
 .square1 {
-    width: 33vw;
+    width: calc(100% / 3);
     display: flex;
-    flex-wrap: wrap;   
+    flex-wrap: wrap;  
+    height: calc(100vw / 3); 
 }
 
 
@@ -334,8 +335,8 @@ hr {
 
 
 .box-square{
-    width: 250px;
-    height: 250px;
+    width: 50%;
+    height: 50%;
 }
 #box5 {
     background-color: var(--color-square-vbr);

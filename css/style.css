@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 50px;
 }
 
 :root {
@@ -29,18 +30,19 @@ body {
     font-family: 'Fredoka', sans-serif;
     font-family: 'Noto Sans', sans-serif;
     font-family: 'Noto Sans Linear B', sans-serif;
-    font-size: 60px;
+    
 }
 
 main {
     width: 100%;
     height: 100%;
+    margin-top: 200px;
 }
 
 .btn-blue {
     background-color: var(--color-btn-blue);
     color: white;
-    padding: 5px;
+    padding: 15px;
 
 }
 
@@ -54,31 +56,31 @@ main {
 
 .begin {
     margin-top: 100px;
-    font-size: 2em;
+ 
 }
 
 /* utility */
 h1 {
-    font-size: 6em;
+    font-size: 4rem;
     font-weight: bolder;
     margin: 100px;
 }
 
 h2 {
-    font-size: 2.5em;
-}
+    font-size: 2rem;
+} 
 
-p {
-    font-size: 80px;
-}
+ p { 
+    font-size: 1.6rem;
+} 
 
 .wrapper {
     flex-wrap: wrap;
 }
 
-.debug {
+/* .debug {
     border: solid 1px black;
-}
+} */
 
 .container {
     max-width: 70%;
@@ -148,7 +150,9 @@ li {
 /* header */
 .head-box {
     border-bottom: solid 1px black;
-    padding: 20px;
+    padding: 40px;
+    text-align: center;
+    font-size: 1.5em;
 }
 
 nav {
@@ -172,11 +176,13 @@ section {
     height: 100%;
     width: 100%;
     object-fit: contain;
-    
+
 }
 
 #arrow-down {
-    font-size: 50px;
+    font-size: 8em;
+    color: var(--color-bg-footer);
+
 }
 
 a .hero-text {
@@ -187,7 +193,7 @@ a .hero-text {
 
 a {
     text-decoration: none;
-    margin: 30px;
+    margin: 50px;
 }
 
 img.hero {
@@ -199,11 +205,12 @@ img.hero {
 .hero {
     width: 100%;
     position: relative;
+    top: 200px;
 }
 
 
 .hero-text {
-    margin-top: 100px;
+   
     width: calc(100% / 3);
     height: 100%;
     float: left;
@@ -216,11 +223,12 @@ img.hero {
     float: left;
     display: block;
     position: relative;
-    top: 120px;
+   
 
 }
 
 /* main */
+
 
 .card {
     padding: 10px;
@@ -230,6 +238,9 @@ img.hero {
     margin: 100px;
 }
 
+.check{
+    color: var(--color-btn-blue);
+}
 #partner {
     margin-top: 50px;
 }
@@ -272,6 +283,8 @@ img.hero {
 
 #jumbo {
     width: 100%;
+    /* margin-top: 50px;
+    bottom: -100px; */
 }
 
 .b-card {
@@ -383,6 +396,7 @@ hr {
 
 summary {
     border-bottom: solid 3px var(--color-bg-footer);
+    margin: 50px;
 }
 
 /* footer */
@@ -397,5 +411,4 @@ footer {
 }
 
 .last-section {
-    margin: 30px;
-}
+    margin: 100px;

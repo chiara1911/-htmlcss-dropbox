@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 50px;
+
 }
 
 :root {
@@ -27,28 +27,27 @@ header {
 }
 
 body {
-    font-family: 'Fredoka', sans-serif;
-    font-family: 'Noto Sans', sans-serif;
+
     font-family: 'Noto Sans Linear B', sans-serif;
-    
+
 }
 
 main {
     width: 100%;
     height: 100%;
-    margin-top: 200px;
+    margin-top: 5px;
 }
 
 .btn-blue {
     background-color: var(--color-btn-blue);
     color: white;
-    padding: 15px;
+    padding: 3px;
 
 }
 
 .false-btn {
-    height: 30px;
-    width: 30px;
+    height: 5px;
+    width: 5px;
     border-radius: 50%;
     background-color: var(--color-btn-blue);
     border: solid 1px black;
@@ -56,37 +55,26 @@ main {
 
 .begin {
     margin-top: 100px;
- 
+
 }
 
 /* utility */
-h1 {
-    font-size: 4rem;
-    font-weight: bolder;
-    margin: 100px;
-}
 
-h2 {
-    font-size: 2rem;
-} 
-
- p { 
-    font-size: 1.6rem;
-} 
 
 .wrapper {
     flex-wrap: wrap;
 }
 
-/* .debug {
+.debug {
     border: solid 1px black;
-} */
+}
 
 .container {
     max-width: 70%;
     margin: 100px auto;
-    padding: 10px;
+    padding: 30px;
 }
+
 
 .d-flex {
     display: flex;
@@ -131,7 +119,7 @@ h2 {
 
 li {
     list-style: none;
-    padding: 10px
+    
 }
 
 .margin-20 {
@@ -157,14 +145,11 @@ li {
 
 nav {
     width: 100%;
-    height: 120px;
     background-color: white;
     overflow: hidden;
-    padding: 50px;
     position: fixed;
     top: 0;
     right: 0;
-    font-size: 1.1em;
     z-index: 1000;
 }
 
@@ -210,7 +195,7 @@ img.hero {
 
 
 .hero-text {
-   
+
     width: calc(100% / 3);
     height: 100%;
     float: left;
@@ -223,7 +208,7 @@ img.hero {
     float: left;
     display: block;
     position: relative;
-   
+
 
 }
 
